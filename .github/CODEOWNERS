@@ -19,10 +19,10 @@
 # ------------------------------------------------------------
 
 # Lock the index and shared code/data assets to maintainers
-/index.html           @KaladinDMP @Nildyanna
-/assets/              @KaladinDMP @Nildyanna
-/CNAME                @KaladinDMP @Nildyanna
-/.github/             @KaladinDMP @Nildyanna
+/index.html           @KaladinDMP @Nildyanna @Ast3risk-ops
+/assets/              @KaladinDMP @Nildyanna @Ast3risk-ops
+/CNAME                @KaladinDMP @Nildyanna @Ast3risk-ops
+/.github/             @KaladinDMP @Nildyanna @Ast3risk-ops
 
 # --- Community-open exceptions (must come AFTER the broad rules) ---
 
@@ -34,4 +34,4 @@
 # so no Code Owner review is required there either.
 
 # Exception: the compatibility list page is maintained by @an0n137
-/pages/list.html      @an0n137
+/pages/list.html      @an0n137 @Ast3risk-ops
