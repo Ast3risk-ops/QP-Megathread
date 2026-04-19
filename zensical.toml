@@ -48,10 +48,11 @@ Copyright &copy; 2026 r/QuestPiracy contributors
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+    {"Home" = "index.md"},
+    {"Quest Sideloading" = ["quest/getting-started.md"]},
+    {"PCVR" = ["pcvr/sources.md"]}
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -174,6 +175,8 @@ features = [
     # navigation sidebar by default.
     # https://zensical.org/docs/setup/navigation/#navigation-expansion
     # "navigation.expand",
+
+    "navigation.indexes",
 
     # This feature turns on navigation elements in the footer that allow the
     # user to navigate to a next or previous page.
