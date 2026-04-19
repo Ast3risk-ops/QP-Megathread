@@ -15,7 +15,7 @@ edit_uri = "edit/main/docs/"
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "QPR Megathread"
+site_name = "QP Megathread"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -50,7 +50,7 @@ Copyright &copy; 2026 r/QuestPiracy contributors
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
     {"Home" = "index.md"},
-    {"Quest Sideloading" = ["quest/getting-started.md"]},
+    {"Quest Sideloading" = ["quest/getting-started.md", "quest/compatibility.md", "quest/public-json.md", "quest/tools.md", "quest/sources.md"]},
     {"PCVR" = ["pcvr/sources.md"]}
 ]
 

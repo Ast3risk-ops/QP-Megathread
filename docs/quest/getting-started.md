@@ -83,8 +83,16 @@ Make sure you've completed Developer Mode and USB Drivers setup above.
     1. Double-click `AndroidSideloader.exe` to run Rookie.
     
     That's it! Rookie will download what it needs and show you a list of available games. Double-click a game name and Rookie will download it, unzip it, and install it on your headset automatically. You'll see progress at the bottom — "Downloading", then "Wait for Install", then "Installing APK", then "Moving OBB". Have patience with larger games (some can be 30GB+). A "Success" message means you're ready to play.
-    
-!!! note "For other sideloading tools (ApprenticeVR, QLoader) and alternative server configurations, see the Standalone Tools and Public Server JSON pages.""
+=== "Linux"
+    1. Download [Apprenticevrsrc](https://github.com/KaladinDMP/apprenticeVrSrc).
+    1. Open **Settings** > **Set Public Server JSON**
+    1. Enter the [current JSON](public-json.md).
+    1. Connect your headset and allow USB debugging.
+
+    Click a game in the list, then **Download** to download and install a game.
+
+    !!! failure "My device isn't showing up!"
+        Make sure you added the udev rules in the [previous section](#__tabbed_1_2).
 
 ## Finding Sideloaded Games
 
@@ -95,7 +103,7 @@ Anything you install that isn't from the Meta Store won't show up in the normal 
 - **Use a Launcher (Recommended):** Launchers are apps that replace the default Library view, showing all your pirated and purchased games together with cover art, sorting, and organization. The first few items listed in Rookie are launchers — install one and pin it to your Quest main menu bar for one-click access to everything.
 
 !!! success "Next Steps"
-    - **Find games:** Check the Quest Standalone Sources page for game sources (Telegram and non-Telegram).
-    - **Explore tools:** See the Standalone Tools page for sideloader apps and alternatives to Rookie.
-    - **Server config:** Visit the Public Server JSON page if you need to configure a server for Rookie or ApprenticeVR.
-    - **PCVR gaming:** If you also game on PC, check out the PCVR Sources page.
+    - **Find games:** Check the [sources page](sources.md) for game sources (Telegram and non-Telegram).
+    - **Explore tools:** See the [tools](tools.md) page for sideloader apps and alternatives to Rookie.
+    - **Server config:** Visit the [public JSON](public-json.md) page if you need to configure a server for Rookie or ApprenticeVR.
+    - **PCVR gaming:** If you also game on PC, check out the [PCVR sources](../pcvr/sources.md) page.
