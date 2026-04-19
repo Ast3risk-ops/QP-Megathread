@@ -20,12 +20,12 @@ There are a lot of words here. That's because if you want this to actually work 
     You don't need any specific firmware version. You are safe to update, and since many updates have drastically improved things like passthrough on the Quest 3 and 3s, we encourage it. We recommend staying on the latest version of Quest software but not signing up for the PTC (Public Test Channel). If something changes that affects piracy, the community will spot it long before it hits the regular release channel.
 
 ??? question "What about free trials and Quest+ games?"
-    Do NOT use free trials of games on the Meta store if you intend to pirate those games. If you use a free trial it gets tied to your account, and attempting to pirate that game will give you an antipiracy warning. This is different from game demos, which are separate listings on the store and are safe to use. Quest+ games are generally considered safe — there's a popup warning but you can usually continue anyway.
+    Do NOT use free trials of games on the Meta store if you intend to pirate those games. If you use a free trial it gets tied to your account, and attempting to pirate that game will give you an antipiracy warning. This is different from game demos, which are separate listings on the store and are safe to use. Quest+ games are the same deal, they will be tied to Quest+ if you pirate them without renaming the packagename.
 
-    If you already used a free trial: You can either buy the game, factory reset your headset with a new account, or use a tool like APC (Automagic Package Changer) on your PC to rename and reinstall the game under a different package name.
+    If you already used a free trial: You can either buy the game, factory reset your headset with a new account, or use a tool like APC (Automagic Package Changer), APKognito, or Phunk on your PC to rename and reinstall the game under a different package name.
 
 ??? question "What games can I get?"
-    Pretty much all of them — around 1,900 titles. A few exceptions exist for games with uncracked protections or online-only games with server-side account verification.
+    Pretty much all of them, around 2000+ titles. A few exceptions exist for games with uncracked protections or online-only games with server-side account verification.
 
 ??? question "Can I play multiplayer?"
     Sometimes. A surprising number of Quest games have multiplayer that works on pirated copies, but this can change with any update. You typically need to be on the most recent version of a game for multiplayer to work, so there may be a delay after updates. There's no way for staff to track every game, so community help keeping multiplayer lists updated is appreciated.
@@ -77,10 +77,10 @@ Make sure you've completed Developer Mode and USB Drivers setup above.
 
 === "Windows"
 
-    1. Download Rookie from the [Rookie 3.0.1 Setup Guide](https://github.com/CrazyScamp/Rookie-Sideloader-Setup/raw/main/AndroidSideloader.exe).
+    1. Download Rookie from the [Github](https://github.com/nerdunit/androidsideloader/releases/latest).
     1. You may get a browser or antivirus warning — this is a false positive. See the Rookies Dev Safety Guide for more details.
     1. Move the Rookie exe to a folder like `C:\RSL\Rookie`.
-    1. Download the [Public Server JSON](https://github.com/CrazyScamp/Rookie-3.0.1-Setup/releases/download/Rookie/vrp-public.json) file and place it next to the exe.
+    1. Download the [Public Server JSON](https://github.com/CrazyScamp/Rookie-3.2-Setup/releases/download/public.json/public.json) file and place it next to the exe.
     1. Connect your headset via USB and allow USB debugging.
     1. Double-click `AndroidSideloader.exe` to run Rookie.
     

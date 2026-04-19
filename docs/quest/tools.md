@@ -6,7 +6,7 @@ icon: lucide/hammer
 
 ## PC
 
-- [**⭐ Rookie (Official)**](https://github.com/VRPirates/rookie/) 
+- [**⭐ Rookie (Official)**](https://github.com/nerdunit/sideloader/) 
     
     The original sideloading tool. Requires a server. See [the guide](https://github.com/CrazyScamp/Rookie-3.1-Setup/) for setup with the new JSON.
     
