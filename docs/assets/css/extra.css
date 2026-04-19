@@ -1,0 +1,7 @@
+.md-footer-meta {
+  background-color: var(--background-color);
+}
+
+.md-footer__inner {
+  display: none !important;
+}
