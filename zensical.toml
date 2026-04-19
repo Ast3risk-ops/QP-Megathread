@@ -297,7 +297,7 @@ logo = "assets/img/logo.png"
 scheme = "slate"
 # media = "(prefers-color-scheme: dark)"
 primary = "blue"
-accent = "cyan"
+accent = "blue"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
