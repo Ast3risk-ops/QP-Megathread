@@ -78,7 +78,7 @@ extra_css = ["assets/css/extra.css"]
 [project.theme]
 
 # change this to "classic" to use the traditional Material for MkDocs look.
-#variant = "classic"
+variant = "classic"
 
 # Zensical allows you to override specific blocks, partials, or whole
 # templates as well as to define your own templates. To do this, uncomment
@@ -295,7 +295,7 @@ logo = "assets/img/logo.png"
 
 [[project.theme.palette]]
 scheme = "slate"
-media = "(prefers-color-scheme: dark)"
+# media = "(prefers-color-scheme: dark)"
 primary = "blue"
 accent = "cyan"
 
